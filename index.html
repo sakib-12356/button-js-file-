@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<div class="container">
+    <button id="Green" onclick="MakeGreen();">Make Green</button>
+    <button id="Yellow" onclick=" MakeYellow();">Make Yellow</button>
+    <button id="Rad" onclick="MakeRed();" >Make Rad</button>
+    <button  id="black" onclick="MakeBlack();"> MakeBlack</button>
+</div>
+
+
+<script>
+    function MakeGreen(){
+        document.addEventListener("click",()=>{
+            document.body.style.backgroundColor="green";
+        });
+    }
+
+    function MakeYellow(){
+          document.addEventListener("click",()=>{
+            document.body.style.backgroundColor="yellow";
+          });
+    }
+    function MakeRed(){
+        document.addEventListener("click",()=>{
+            document.body.style.backgroundColor="red";
+        });
+    }
+    function MakeBlack(){
+        document.addEventListener("click",()=>{
+            document.body.style.backgroundColor="black";
+        });
+    }
+
+</script>
+
+
+
+
+</body>
+</html>
